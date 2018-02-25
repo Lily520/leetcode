@@ -26,6 +26,5 @@ class Solution:
             preSum = max(preSum+ele,ele)
             maxSum = max(preSum,maxSum)
             
-        return maxSum
-        
+        return maxSum  
 ```
